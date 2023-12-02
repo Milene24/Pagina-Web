@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', sans-serif;
+    
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid rgb(252, 252, 251);
+}
+
+/* Header ////////////////////////////////////////////////*/
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    background: rgb(255, 222, 89);
+    background: linear-gradient(#ffde59, #ff914d);
+    height: 9rem;
+    width: 100%;
+    align-items: center;
+}
+
+.tittleContainer {
+    flex-grow: 1;
+    display: flex;
+    margin: 10%;
+}
+
+.navContainer {
+    display: flex;
+    flex-grow: 2;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.navList li a:hover {
+color: white;
+}
+
+.formContainer {
+    flex-grow: 1;
+}
+
+hgroup{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFF1A8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+
+  

@@ -1,0 +1,138 @@
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    background: rgb(255, 222, 89);
+    background: linear-gradient(#ffde59, #ff914d);
+    height: 9rem;
+    width: 100%;
+    align-items: center;
+}
+
+.tittleContainer {
+    flex-grow: 1;
+    display: flex;
+    margin: 10%;
+}
+
+.navContainer {
+    display: flex;
+    flex-grow: 2;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.navList li a:hover {
+color: white;
+}
+
+.formContainer {
+    flex-grow: 1;
+}
+
+hgroup{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Place1 h2{
+    margin-top: 2cm;
+    text-align: center;
+}
+.Place1 img{
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 5%;
+    height: 13cm;
+    justify-content: center;
+    align-items: center;
+}
+.Place1 h3 {
+    margin: 5%;
+    align-items: center;
+    margin-top: 0%;
+    
+}
+
+.Place2 h2{
+    margin-top: 4cm;
+    text-align: center;
+}
+.Place2 img{
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 5%;
+    height: 10cm;
+    margin-right: auto;
+
+}
+.Place2 h3 {
+    margin: 5%;
+    align-items: center;
+    margin-top: 0%;
+}
+
+.Place3 h2{
+    margin-top: 4cm;
+    text-align: center;
+}
+.Place3 img{
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 5%;
+    height: 15cm;
+    margin-right: auto;
+
+}
+.Place3 h3 {
+    margin: 5%;
+    align-items: center;
+    margin-top: 0%;
+}
+
+.Place4 h2{
+    margin-top: 4cm;
+    text-align: center;
+}
+.Place4 img{
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 5%;
+    height: 13cm;
+    margin-right: auto;
+
+}
+.Place4 h3 {
+    margin: 5%;
+    align-items: center;
+    margin-top: 0%;
+}
+
+.Place5 h2{
+    margin-top: 4cm;
+    text-align: center;
+}
+.Place5 img{
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 5%;
+    height: 15cm;
+    margin-right: auto;
+
+
+}
+.Place5 h3 {
+    margin: 5%;
+    align-items: center;
+    margin-top: 0%;
+}

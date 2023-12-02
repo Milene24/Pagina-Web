@@ -1,0 +1,29 @@
+hgroup{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  .item {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item h3 {
+    margin-top: 0;
+  }
